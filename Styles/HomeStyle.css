@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Estilos del HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(148, 144, 144, 0.658);
+    padding: 5px;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-color: black;
+}
+.img-nav {
+    display: flex;
+    align-items: center;
+}
+.img-nav > img {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.title-subtitle-nav {
+    font-size: large;
+    color: red;
+}
+
+.title-subtitle-nav > h6 {
+    color: black;
+}
+
+nav > a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+
+nav > a:hover {
+    color: red;
+    font-weight: bolder;
+}
+/* -------------------------------------- */
+
+/* Estilos de seccion 1 (Contacto) */
+.contact-section-1 {
+    width: auto;
+    height: 400px;
+    background-image: url(../Media/FondoDiv.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-contact-section {
+    margin: 15px;
+    color: black;
+    background-color: red;
+}
+
+.button-contact-section > button {
+    padding: 5px;
+    font-size: large;
+    background-color: white;
+    color: black;
+}
+
+.button-contact-section > button:hover {
+    font-weight: bolder;
+}
+/* -------------------------------------- */
+
+/* Estilos de seccion 2 (About Us) */
+.about-us-section {
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-about-us-section > img {
+    height: 300px;
+    width: 420px;
+    margin: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+.info-about-us-section {
+    display: flex;
+    margin: 30px;
+    width: 850px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-about-us-section > h1 {
+    margin-bottom: 10px;
+    color: red;
+}
+
+.info-about-us-section > p {
+    margin-bottom: 25px;
+    color: black;
+    font-size: large;   
+    line-height: 25px;
+    text-align: justify;
+}
+
+.button-about-us-section > button {
+    padding: 5px;
+    font-size: large;
+    background-color: white;
+    color: black;
+}
+
+.button-about-us-section > button:hover {
+    font-weight: bolder;
+}
+/* -------------------------------------- */
+
+/* Estilos de seccion 3 (Shoes) */
+.title-shoes-section > h1 {
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.shoes-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.model-shoes-section {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.model-shoes-section > h1 {
+   color: black;
+}
+
+.model-shoes-section > img {
+    height: 230px;
+    width: 250px;
+    margin: 10px;
+}
+
+.button-shoes-section  {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button-shoes-section > button {
+    padding: 5px;
+    font-size: large;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+}
+
+.button-shoes-section > button:hover {
+    font-weight: bolder;
+}
+/* -------------------------------------- */
+
+/* Estilos de seccion 4 (Gallery) */
+.gallery-section {
+    width: auto;
+    height: 400px;
+    background-image: url(../Media/sneakerCloset.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.title-gallery-section {
+    margin: 15px;
+    color: black;
+    background-color: red;
+}
+
+.button-gallery-section > button {
+    padding: 5px;
+    font-size: large;
+    background-color: white;
+    color: black;
+}
+
+.button-gallery-section > button:hover {
+    font-weight: bolder;
+}
+/* -------------------------------------- */
+
+/* Estilos del FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 5px;
+    border-top-style: solid;
+    border-color: black;
+    padding: 5px;
+    background-color: rgba(148, 144, 144, 0.658);
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-title > img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.footer-info {
+    color: red;
+}
+
+.footer-instagram {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-instagram > img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+/* -------------------------------------- */

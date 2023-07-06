@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Estilos del HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(148, 144, 144, 0.658);
+    padding: 5px;
+    margin-bottom: 30px;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-color: black;
+}
+.img-nav {
+    display: flex;
+    align-items: center;
+}
+.img-nav > img {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.title-subtitle-nav {
+    font-size: large;
+    color: red;
+}
+
+.title-subtitle-nav > h6 {
+    color: black;
+}
+
+nav > a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+
+nav > a:hover {
+    color: red;
+    font-weight: bolder;
+}
+/* -------------------------------------- */
+
+/* Estilos del main */
+.main-title {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(../Media/fondoMain.jpg);
+}
+
+.div-shoes {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.div-shoes > img {
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.price > h4 {
+    color: green;
+}
+/* -------------------------------------- */
+
+/* Estilos del SECTION */
+.section-shoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.section-shoes > iframe {
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.section-shoes > h1 {
+    color: red;
+    margin-bottom: 30px;
+}
+
+/* -------------------------------------- */
+
+/* Estilos del FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 5px;
+    border-top-style: solid;
+    border-color: black;
+    padding: 5px;
+    background-color: rgba(148, 144, 144, 0.658);
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-title > img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.footer-info {
+    color: red;
+}
+
+.footer-instagram {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-instagram > img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+/* -------------------------------------- */
