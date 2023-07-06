@@ -1,0 +1,7 @@
+Nuevo Proyecto: Sitio Web Responsive
+- Item 1: 5 secciones minimo, entre ellas tiene que tener: Index, contacto, sobre nosotros, galeria, card tipo ecommerce.
+- Index: 4 secciones con texto, cada una de las secciones debe tener un boton de call to action.
+- Contacto: 1 seccion sola (Por un lado un mapa y por el otro un formulario de contacto).
+- Sobre Nosotros: Comercial "Lo glorioso de ser Argentino".
+- Galeria: Debe tener un minimo de 9 fotos y debe ser responsive.
+- Card tipo ecommerce: Cards como en la clase anterior.
